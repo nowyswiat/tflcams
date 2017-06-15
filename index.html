@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>TfL Cams</title>
+  <meta name="description" content="">
+  <meta name="description" content="View Transport for London traffic cameras.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="app.46c9ca3f6c8fcd89.css">
+
+  <link rel="stylesheet" href="lib/lib.1518b53e18d10663.css"/>
+  
+  <script>
+    "use strict";
+    (function() {
+        var method;
+        var noop = function () {};
+        var methods = [
+            'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+            'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+            'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+            'timeline', 'timelineEnd', 'timeStamp', 'trace', 'warn'
+        ];
+        var length = methods.length;
+        var console = (window.console = window.console || {});
+        while (length--) {
+            method = methods[length];
+            if (!console[method]) {
+                console[method] = noop;
+            }
+        }
+    }());
+  </script>
+  
+  <script src="lib/lib.6ce522490348020e.js"></script>
+   
+  <script>
+    var tflcams = tflcams || {};
+    tflcams.version = '1.0.0';
+  </script>
+  
+  <script src="app.min.f0c6187970214627.js"></script>
+
+  <script>
+    tflcams.gui.setPageEvents();
+  </script>
+
+</head>
+<body>
+  <div id="main" data-role="page"></div>
+  <noscript><center><br/>Please enable JavaScript</center></noscript>
+</body>
+</html>
